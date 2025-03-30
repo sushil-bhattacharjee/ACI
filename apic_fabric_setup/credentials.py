@@ -1,3 +1,3 @@
-URL = 'https://sandboxapicdc.cisco.com'
+URL = 'https://192.168.89.95'
 LOGIN = 'admin'
-PASSWORD = '!v3G@!4@Y'
+PASSWORD = '97249_NEC'

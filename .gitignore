@@ -5,3 +5,5 @@ acitoolkit/
 notes.txt
 webarya/
 __pycache__
+.trunk/
+.vACI
