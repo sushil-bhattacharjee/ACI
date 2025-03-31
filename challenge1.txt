@@ -1,0 +1,11 @@
+Perform the following configurations in an ACI environment. Note that these tasks assume that the physical environment is built out, including a physical domain.
+
+Create a Tenant, VRF, and BD
+Create an Application Profile (APP1) and create an EPG using the AEP method:
+Create EPG1 under the AP and add it to the BD + physical domain
+Under the AEP, add EPG1 for VLAN 101
+Create a second Application Profile (APP2) and create an EPG using the static path binding method:
+Create EPG2 that maps to Leaf 101, ports 1-2 for VLAN 100
+Create a new EPG for APP1 that uses static path binding:
+Create EPG3 which includes Leaf 102, port 1 for VLAN 102
+Create contract in between EPG1-to-EPG3 and EPG1-to-EPPG2
